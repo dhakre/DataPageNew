@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:titleTextAppearance="@color/colorPrimaryDark"
+    >
+
+    <ImageView
+        android:id="@+id/toolbar_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        android:src="@drawable/appimage2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mytextView"
+        android:text="Suivre un incident"
+        android:textColor="@color/colorAccent"
+        android:gravity="left"
+        android:textSize="20dp"
+        />
+
+
+</android.support.v7.widget.Toolbar>

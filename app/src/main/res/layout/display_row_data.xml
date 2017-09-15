@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="intitule"
+
+        />
+    <TextView
+        android:id="@+id/clientName"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="client Nom"
+        android:layout_toRightOf="@+id/status"
+        />
+
+    <TextView
+        android:id="@+id/creationDate"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/clientName"
+        android:gravity="center"
+        android:text=" Date creation"
+
+        />
+    <TextView
+        android:id="@+id/lastDate"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/creationDate"
+        android:gravity="center"
+        android:text="Date dernier exchange "
+
+        />
+
+    <Button
+        android:id="@+id/bnOpen"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:text="ouvrir"
+        android:layout_alignBottom="@+id/lastDate"
+        android:layout_toEndOf="@+id/lastDate" />
+</RelativeLayout>
